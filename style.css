@@ -50,6 +50,7 @@ header > h3 {
 	vertical-align: center;
 	margin: 95px;
 	border-radius: 10px 10px;
+	bottom: 0;
 }
 .footer > h1 {
 	color: black;
