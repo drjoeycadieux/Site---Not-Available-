@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Site - Not Available</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" referrerpolicy="no-referrer">
+
+	</script>
 </head>
 
 <body>
@@ -16,7 +19,7 @@
 
 	<div id="jaune">
 		<img src="/assets/alerts1.png" alt="" srcset="">
-		<h1>Not available at the moment <p><script type="text/javascript">document.write(new Date().toLocaleTimeString());</script></p> </h1>
+		<h1>Not available at the moment <p id="updatetime"></p> </h1>
 	</div>
 
 
@@ -46,9 +49,7 @@ A server can go down for many reasons. Maybe a physical machine loses power, or 
 <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script> -->
 	</div>
 
-	<script src="script.js">
-
-	</script>
+<script src="script.js"></script>
 </body>
 
 </html>

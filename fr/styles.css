@@ -68,3 +68,7 @@ header > a {
 	float: right;
 	display: inline;
 }
+#jaune > h1 > p {
+	color: firebrick;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
