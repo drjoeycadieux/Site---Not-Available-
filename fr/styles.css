@@ -1,5 +1,5 @@
 body {
-	 background-color: rgb(197, 197, 197);
+	 background-color: rgb(226, 225, 225);
 	 padding: 0;
 	 margin: 0;
 }
@@ -63,10 +63,12 @@ p#datetime {
 }
 header > a {
 	color: rgb(13, 98, 209);
-	text-decoration: none;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	float: right;
-	display: inline;
+	text-decoration: underline;
+}
+header > a:hover {
+	color: black;
 }
 #jaune > h1 > p {
 	color: firebrick;
