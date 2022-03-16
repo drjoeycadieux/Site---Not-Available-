@@ -1,2 +1,2 @@
-const miseajour = moment().format('MMMM Do YYYY, h:mm:ss a');
+const miseajour = moment().format('lll');
 document.getElementById("miseajour").innerHTML = miseajour;
