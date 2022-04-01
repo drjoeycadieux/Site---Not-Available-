@@ -7,3 +7,8 @@ header {
   padding: 25px;
   background-color: #303846;
 }
+
+header h2 {
+   color: white;
+   text-align: center;
+}
